@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/digite_sua_altura_em_metros"
+        android:inputType="numberDecimal"
         android:textSize="25dp"/>
 
     <TextView
@@ -32,6 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/digite_seu_peso_em_kg"
+        android:inputType="numberDecimal"
         android:textSize="25dp"/>
 
     <Button
