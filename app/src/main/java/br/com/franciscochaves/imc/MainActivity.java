@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button btn_imc;
@@ -51,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
                 resultado.setText("Diagnóstico: Obesidade grau 3");
             }
 
-            exibirMensagem("IMC: " + imc);
+            DecimalFormat df = new DecimalFormat("0.00");
+
+            exibirMensagem("IMC: " + df.format(imc));
 
         }else{
             exibirMensagem("Preencher os campos altura e peso");
