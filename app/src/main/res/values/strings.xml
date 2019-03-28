@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">IMC</string>
+    <string name="altura">Altura:</string>
+    <string name="digite_sua_altura_em_metros">Digite sua altura em metros</string>
+    <string name="peso">Peso:</string>
+    <string name="digite_seu_peso_em_kg">Digite seu peso em kg</string>
+    <string name="verificar_imc">Verificar IMC</string>
+    <string name="diagnostico">Diagnóstico:</string>
 </resources>
